@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `tbl_users` (
+`Id` int(10) unsigned NOT NULL PRIMARY KEY,
+  `Tokens` longtext NOT NULL,
+  `Date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
